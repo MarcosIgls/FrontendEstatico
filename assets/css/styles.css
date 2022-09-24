@@ -1,0 +1,572 @@
+nav.navbar{
+    content: center;
+    background-color:rgb(0, 0, 0);
+  /*  background-image: url(/assets/img/fondo\ urban\ bronze.jfif);*/
+  /*  background-size: cover;*/
+
+    height: 5.1rem;
+}
+
+
+a.navbar-brand{
+    margin-right:auto;
+    margin-top:-1.5rem;
+    /*background-image: url(/assets/img/fondo\ urban\ bronze.jfif);*/
+    width: 140px;
+    
+}
+
+.redes{
+    margin-right: 0.5rem;
+    background-color:rgb(0, 0, 0);
+  /*  background-image: url(/assets/img/fondo\ urban\ bronze.jfif);*/
+
+}
+
+
+i.fa-brands.fa-instagram{
+    margin-right: 0.5rem;
+    font-size: 2rem !important;
+    color:aliceblue !important;
+}
+i.fa-brands.fa-facebook {
+    margin-right: 0.5rem;
+    font-size: 2rem !important;
+    color: aliceblue !important;
+}
+i.fa-brands.fa-linkedin {
+    margin-right: .5rem;
+    font-size: 2rem !important;
+    color: aliceblue !important;
+}
+i.fa-solid.fa-user{
+    margin-right: .5rem;
+    font-size: 2rem !important;
+    color: aliceblue !important;
+}
+i.fa-brands.fa-instagram:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+i.fa-brands.fa-facebook:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+i.fa-brands.fa-linkedin:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+i.fa-solid.fa-user:hover{
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+ul.nav{
+    background-color: rgb(255,255,255);
+}
+
+
+section.wellcome{
+    background-image: url(/assets/img/20220917_110105_0000.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+
+}
+
+h4.titulo-section{
+    margin-right: 0;
+    font-family: 'BioRhyme', serif;
+    font-size: 33px;
+    font-weight: 700;
+    color: #fff;
+    text-align: inherit;
+    width: 100%;
+    background: #000
+    
+}
+
+h4.titulo-section:hover{
+    color: #00ff43;
+    font-weight: 300;
+}
+
+#about{
+    height: 28vh;
+}
+
+#logojc{
+    margin-top:0.5rem;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    width: 2%; 
+}
+
+h5.textoabout{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style:inherit;
+    font-size: 27px;
+    text-align: justify;
+    color: rgb(46, 0, 88);
+    margin-top: calc(3%);
+    padding-top: 1rem;
+    margin-right: 5rem;
+}
+
+#logoaisa{
+    margin-top:2.5rem;
+    padding-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+h5.textexperiencia{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style:inherit;
+    font-size: 27px;
+    text-align: justify;
+    color: rgb(46, 0, 88);
+    margin-top: calc(3%);
+    margin-right: 5rem;
+}
+/* Estilos Seccion Educacion*/
+
+#educacion{
+    margin-top: 5rem;
+    border-top: 0rem;   
+}
+
+div .col-3.sm.container-fluid{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoEducacion.w-50{
+    margin-right: auto;
+    margin-left: 5rem;
+    align-self: center;
+    size: 10px;
+}
+
+h5.textoeducacion {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    margin-top: 1rem;
+    justify-content:space-around;
+    min-height:38vh;
+    position: relative;
+    width: 100%;
+}
+
+.container .card{
+    background: #222;
+    position: relative;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.5); 
+}
+
+.container .card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,.03);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50 #000;
+    background: #222;
+    z-index: 1000;
+}
+
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.percent .number h2{
+    color: #777;
+    font-weight: 700;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.card:hover .number h2{
+    color: #fff;
+    font-size: 60px;
+}
+
+.percent .number span{
+    font-size: 24px;
+    color: #777;
+}
+
+.card:hover .number span{
+    color: #fff;
+}
+
+.text{
+    position: relative;
+    color: #777;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.card:hover .text{
+    color: #fff;
+}
+
+
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke: #191919;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+
+svg circle:nth-child(2){
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #ce8f22;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #2f98d9;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke: #00ff43;
+}
+.card:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 60) / 100);
+    stroke: #992cd4;
+}
+.card:nth-child(5) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 50) / 100);
+    stroke: #e32821;
+}
+
+#proyectos{
+    margin: 0;
+    padding: 0;
+    height: 50VH;
+}
+#contacto {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    padding-bottom: 10px;
+
+}
+#contact {
+    
+    width: 100%;
+    height: 100%;
+}
+  
+.section-header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+    font: 300 60px 'Oswald', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+  
+.contact-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    max-width: 840px;
+}
+  
+/* Left contact page */
+.form-horizontal {
+/*float: left;*/
+    max-width: 400px;
+    font-family: 'Lato';
+    font-weight: 400;
+}
+  
+.form-control, 
+  textarea {
+    max-width: 400px;
+    background-color: #000;
+    color: #fff;
+    letter-spacing: 1px;
+}
+  
+.send-button {
+    margin-top: 15px;
+    height: 34px;
+    width: 400px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+  
+.alt-send-button {
+    width: 400px;
+    height: 34px;
+    transition: all .2s ease-in-out;
+}
+  
+.send-text {
+    display: block;
+    margin-top: 10px;
+    font: 700 12px 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+  
+.alt-send-button:hover {
+    transform: translate3d(0px, -29px, 0px);
+}
+  
+/* Begin Right Contact Page */
+.direct-contact-container {
+    max-width: 400px;
+}
+  
+/* Location, Phone, Email Section */
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+  
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+  
+.contact-text {
+    font: 300 18px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+  
+.place {
+    margin-left: 62px;
+}
+  
+.phone {
+    margin-left: 56px;
+}
+  
+.gmail {
+    margin-left: 53px;
+}
+  
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+  
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+  
+  
+/* Social Media Icons */
+.social-media-list {
+    position: relative;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+  
+.social-media-list li a {
+    color: #fff;
+}
+  
+.social-media-list li {
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(27,27,27);
+    cursor: pointer; 
+    transition: all .2s ease-in-out;
+}
+  
+.social-media-list li:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+    box-shadow: 0 0 0 1px #fff;
+    transition: all .2s ease-in-out;
+}
+  
+.social-media-list li:hover {
+    background-color: #fff; 
+}
+  
+.social-media-list li:hover:after {
+    opacity: 1;  
+    transform: scale(1.12);
+    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+  
+.social-media-list li:hover a {
+    color: #000;
+}
+  
+.copyright {
+    font: 200 14px 'Oswald', sans-serif;
+    color: #555;
+    letter-spacing: 1px;
+    text-align: center;
+}
+  
+hr {
+    border-color: rgba(255,255,255,.6);
+}
+  
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.direct-contact-container, .form-horizontal {
+    margin: 0 auto;
+}  
+    
+.direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+}    
+    
+.social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+    
+.social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+}
+  
+@media screen and (max-width: 569px) {
+  
+.direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+}  
+    
+.form-control, textarea {     
+    margin: 0 auto;
+}
+      
+.name, .email, textarea {
+    width: 280px;
+} 
+    
+.direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+}  
+    
+.social-media-list {
+    left: 0;
+}
+    
+.social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+}
+    
+.social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+}    
+}
+    
+@media screen and (max-width: 410px) {    
+.send-button {
+    width: 99%;
+}
+}
+
+    
+  
+
